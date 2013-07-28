@@ -19,8 +19,8 @@ foreach $target (@targets) {
         if (opendir(DH2, $deldir)) {
           unlink <$deldir/*> or die("unlink $deldir:$!");
           closedir(DH2);
-				} else {
-					die("opendir $deldir:$!");
+        } else {
+          die("opendir $deldir:$!");
         }
         rmdir $deldir or die("rmdir $deldir:$!"); # die‚Í–¢’Ê
       }
