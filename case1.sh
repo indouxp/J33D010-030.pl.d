@@ -40,7 +40,7 @@ done
 find ./base -exec ls -1d {} \; > `basename $0`.before
 wc -l `basename $0`.before
 
-./ts.pl
+./J33D010-030.pl
 echo $?
 
 find ./base -exec ls -1d {} \; > `basename $0`.after
