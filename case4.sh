@@ -1,11 +1,11 @@
 #!/bin/sh
 cat <<EOT
-正常ケース
+listenerディレクトリはない
 EOT
 
 rm -rf ./base
 
-for base in DB listener AP
+for base in DB AP
 do
   for yyyy in "2012"
   do
@@ -50,6 +50,4 @@ wc -l `basename $0`.after
 
 diff `basename $0`.before `basename $0`.after > `basename $0`.diff
 
-find ./base/DB -type d | wc -l
-find ./base/listener -type d | wc -l
-find ./base/AP -type d | wc -l
+

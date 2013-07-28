@@ -1,8 +1,9 @@
 #!/bin/sh
 cat <<EOT
-正常ケース
+権限により削除できないディレクトリがある(そのディレクトリ以下にファイルはない)
 EOT
 
+chmod -R a+x ./base
 rm -rf ./base
 
 for base in DB listener AP
@@ -34,6 +35,13 @@ do
         do
           touch ./base/$base/$yyyy$mm$dd/$file.txt
         done
+        if [ $yyyy -eq 2013 -a $mm -eq 1 -a $dd -eq 1 ]; then
+          rm ./base/$base/$yyyy$mm$dd/*
+          chmod a-x ./base/$base/$yyyy$mm$dd
+          chmod a-r ./base/$base/$yyyy$mm$dd
+          chmod a-w ./base/$base/$yyyy$mm$dd
+          ls -ld ./base/$base/$yyyy$mm$dd
+        fi
       done
     done
   done
@@ -45,11 +53,11 @@ wc -l `basename $0`.before
 ./J33D010-030.pl
 echo $?
 
+find ./base -type d -exec chmod a+x {} \;
+
 find ./base -exec ls -1d {} \; > `basename $0`.after
 wc -l `basename $0`.after
 
 diff `basename $0`.before `basename $0`.after > `basename $0`.diff
 
-find ./base/DB -type d | wc -l
-find ./base/listener -type d | wc -l
-find ./base/AP -type d | wc -l
+
