@@ -2,6 +2,7 @@
 use constant KEEP => 60;
 
 $base = "/Users/indou/work/J33D010-030.pl.d/base";
+$base = "/home/indou/work/J33D010-030.pl.d/base";
 @targets = ("DB", "listener", "AP");
 foreach $target (@targets) {
   if (opendir(DH, $base . "/" . $target)) {
@@ -18,8 +19,10 @@ foreach $target (@targets) {
         if (opendir(DH2, $deldir)) {
           unlink <$deldir/*> or die("unlink $deldir:$!");
           closedir(DH2);
+				} else {
+					die("opendir $deldir:$!");
         }
-        rmdir $deldir or die("rmdir $deldir:$!"); # die$B$OL$DL(B
+        rmdir $deldir or die("rmdir $deldir:$!"); # die‚Í–¢’Ê
       }
       $i++;
     }

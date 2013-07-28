@@ -1,22 +1,22 @@
 #!/bin/sh
 cat <<EOT
-æ¨©é™ã«ã‚ˆã‚Šå‰Šé™¤ã§ããªã„ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãŒã‚ã‚‹
+Œ ŒÀ‚É‚æ‚èíœ‚Å‚«‚È‚¢ƒfƒBƒŒƒNƒgƒŠ‚ª‚ ‚é(ˆÙíI—¹)
 EOT
 
-chmod -R a+x ./base
+chmod -R a+rwx ./base
 rm -rf ./base
 
 for base in DB listener AP
 do
   for yyyy in "2012"
   do
-    for mm in `awk 'BEGIN{for (i = 12; i <= 12; i++) {printf("%02d\n", i);}}'`
+    for mm in `nawk 'BEGIN{for (i = 12; i <= 12; i++) {printf("%02d\n", i);}}'`
     do
-      for dd in `awk 'BEGIN{for (i = 1; i <= 31; i++) {printf("%02d\n", i);}}'`
+      for dd in `nawk 'BEGIN{for (i = 1; i <= 31; i++) {printf("%02d\n", i);}}'`
       do
         mkdir -p ./base/$base/$yyyy$mm$dd
         for file in \
-        `awk 'BEGIN{srand();for(i = 1; i <= int(rand()*5)+1; i++) {printf("%1d\n", i)}}'`
+        `nawk 'BEGIN{srand();for(i = 1; i <= int(rand()*5)+1; i++) {printf("%1d\n", i)}}'`
         do
           touch ./base/$base/$yyyy$mm$dd/$file.txt
         done
@@ -25,13 +25,13 @@ do
   done
   for yyyy in "2013"
   do
-    for mm in `awk 'BEGIN{for (i = 1; i <= 2; i++) {printf("%02d\n", i);}}'`
+    for mm in `nawk 'BEGIN{for (i = 1; i <= 2; i++) {printf("%02d\n", i);}}'`
     do
-      for dd in `awk 'BEGIN{for (i = 1; i <= 31; i++) {printf("%02d\n", i);}}'`
+      for dd in `nawk 'BEGIN{for (i = 1; i <= 31; i++) {printf("%02d\n", i);}}'`
       do
         mkdir -p ./base/$base/$yyyy$mm$dd
         for file in \
-        `awk 'BEGIN{srand();for(i = 1; i <= int(rand()*5)+1; i++) {printf("%1d\n", i)}}'`
+        `nawk 'BEGIN{srand();for(i = 1; i <= int(rand()*5)+1; i++) {printf("%1d\n", i)}}'`
         do
           touch ./base/$base/$yyyy$mm$dd/$file.txt
         done

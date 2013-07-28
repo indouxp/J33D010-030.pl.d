@@ -1,12 +1,12 @@
 #!/bin/sh
 cat <<EOT
-正常ケース
+APディレクトリはない(異常終了)
 EOT
 
 chmod -R a+rwx ./base
 rm -rf ./base
 
-for base in DB listener AP
+for base in listener DB
 do
   for yyyy in "2012"
   do
@@ -51,6 +51,4 @@ wc -l `basename $0`.after
 
 diff `basename $0`.before `basename $0`.after > `basename $0`.diff
 
-find ./base/DB -type d | wc -l
-find ./base/listener -type d | wc -l
-find ./base/AP -type d | wc -l
+

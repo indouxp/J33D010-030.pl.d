@@ -1,333 +1,483 @@
-3,68d2
-< ./base/AP/20121201
-< ./base/AP/20121201/1.txt
-< ./base/AP/20121202
-< ./base/AP/20121202/1.txt
-< ./base/AP/20121203
-< ./base/AP/20121203/1.txt
-< ./base/AP/20121204
-< ./base/AP/20121204/1.txt
-< ./base/AP/20121205
-< ./base/AP/20121205/1.txt
-< ./base/AP/20121206
-< ./base/AP/20121206/1.txt
-< ./base/AP/20121207
-< ./base/AP/20121207/1.txt
-< ./base/AP/20121208
-< ./base/AP/20121208/1.txt
-< ./base/AP/20121209
-< ./base/AP/20121209/1.txt
-< ./base/AP/20121210
-< ./base/AP/20121210/1.txt
-< ./base/AP/20121211
-< ./base/AP/20121211/1.txt
-< ./base/AP/20121212
-< ./base/AP/20121212/1.txt
-< ./base/AP/20121213
-< ./base/AP/20121213/1.txt
-< ./base/AP/20121214
-< ./base/AP/20121214/1.txt
-< ./base/AP/20121215
-< ./base/AP/20121215/1.txt
-< ./base/AP/20121216
-< ./base/AP/20121216/1.txt
-< ./base/AP/20121217
-< ./base/AP/20121217/1.txt
-< ./base/AP/20121218
-< ./base/AP/20121218/1.txt
-< ./base/AP/20121219
-< ./base/AP/20121219/1.txt
-< ./base/AP/20121220
-< ./base/AP/20121220/1.txt
-< ./base/AP/20121221
-< ./base/AP/20121221/1.txt
-< ./base/AP/20121222
-< ./base/AP/20121222/1.txt
-< ./base/AP/20121223
-< ./base/AP/20121223/1.txt
-< ./base/AP/20121224
-< ./base/AP/20121224/1.txt
-< ./base/AP/20121225
-< ./base/AP/20121225/1.txt
-< ./base/AP/20121226
-< ./base/AP/20121226/1.txt
-< ./base/AP/20121227
-< ./base/AP/20121227/1.txt
-< ./base/AP/20121228
-< ./base/AP/20121228/1.txt
-< ./base/AP/20121229
-< ./base/AP/20121229/1.txt
-< ./base/AP/20121230
-< ./base/AP/20121230/1.txt
-< ./base/AP/20121231
-< ./base/AP/20121231/1.txt
-< ./base/AP/20130101
-< ./base/AP/20130101/1.txt
-< ./base/AP/20130102
-< ./base/AP/20130102/1.txt
-190,387d123
-< ./base/DB/20121201
-< ./base/DB/20121201/1.txt
-< ./base/DB/20121201/2.txt
-< ./base/DB/20121201/3.txt
-< ./base/DB/20121201/4.txt
-< ./base/DB/20121201/5.txt
-< ./base/DB/20121202
-< ./base/DB/20121202/1.txt
-< ./base/DB/20121202/2.txt
-< ./base/DB/20121202/3.txt
-< ./base/DB/20121202/4.txt
-< ./base/DB/20121202/5.txt
+23,26d22
+< ./base/listener/20121219
+< ./base/listener/20121219/3.txt
+< ./base/listener/20121219/2.txt
+< ./base/listener/20121219/1.txt
+31,34d26
+< ./base/listener/20121213
+< ./base/listener/20121213/3.txt
+< ./base/listener/20121213/2.txt
+< ./base/listener/20121213/1.txt
+43,46d34
+< ./base/listener/20121221
+< ./base/listener/20121221/1.txt
+< ./base/listener/20121221/3.txt
+< ./base/listener/20121221/2.txt
+51,54d38
+< ./base/listener/20121226
+< ./base/listener/20121226/3.txt
+< ./base/listener/20121226/2.txt
+< ./base/listener/20121226/1.txt
+67,70d50
+< ./base/listener/20121214
+< ./base/listener/20121214/1.txt
+< ./base/listener/20121214/2.txt
+< ./base/listener/20121214/3.txt
+79,82d58
+< ./base/listener/20121207
+< ./base/listener/20121207/3.txt
+< ./base/listener/20121207/2.txt
+< ./base/listener/20121207/1.txt
+87,90d62
+< ./base/listener/20121209
+< ./base/listener/20121209/1.txt
+< ./base/listener/20121209/3.txt
+< ./base/listener/20121209/2.txt
+95,98d66
+< ./base/listener/20121203
+< ./base/listener/20121203/1.txt
+< ./base/listener/20121203/2.txt
+< ./base/listener/20121203/3.txt
+107,114d74
+< ./base/listener/20121231
+< ./base/listener/20121231/1.txt
+< ./base/listener/20121231/3.txt
+< ./base/listener/20121231/2.txt
+< ./base/listener/20121210
+< ./base/listener/20121210/2.txt
+< ./base/listener/20121210/3.txt
+< ./base/listener/20121210/1.txt
+131,134d90
+< ./base/listener/20121222
+< ./base/listener/20121222/1.txt
+< ./base/listener/20121222/3.txt
+< ./base/listener/20121222/2.txt
+139,142d94
+< ./base/listener/20121228
+< ./base/listener/20121228/1.txt
+< ./base/listener/20121228/2.txt
+< ./base/listener/20121228/3.txt
+155,158d106
+< ./base/listener/20121225
+< ./base/listener/20121225/2.txt
+< ./base/listener/20121225/3.txt
+< ./base/listener/20121225/1.txt
+163,166d110
+< ./base/listener/20121217
+< ./base/listener/20121217/1.txt
+< ./base/listener/20121217/2.txt
+< ./base/listener/20121217/3.txt
+175,178d118
+< ./base/listener/20121204
+< ./base/listener/20121204/1.txt
+< ./base/listener/20121204/2.txt
+< ./base/listener/20121204/3.txt
+187,190d126
+< ./base/listener/20121206
+< ./base/listener/20121206/3.txt
+< ./base/listener/20121206/2.txt
+< ./base/listener/20121206/1.txt
+195,198d130
+< ./base/listener/20121227
+< ./base/listener/20121227/1.txt
+< ./base/listener/20121227/3.txt
+< ./base/listener/20121227/2.txt
+211,214d142
+< ./base/listener/20121215
+< ./base/listener/20121215/1.txt
+< ./base/listener/20121215/3.txt
+< ./base/listener/20121215/2.txt
+227,230d154
+< ./base/listener/20121212
+< ./base/listener/20121212/1.txt
+< ./base/listener/20121212/2.txt
+< ./base/listener/20121212/3.txt
+235,238d158
+< ./base/listener/20121218
+< ./base/listener/20121218/2.txt
+< ./base/listener/20121218/3.txt
+< ./base/listener/20121218/1.txt
+247,250d166
+< ./base/listener/20121220
+< ./base/listener/20121220/1.txt
+< ./base/listener/20121220/2.txt
+< ./base/listener/20121220/3.txt
+263,270d178
+< ./base/listener/20130101
+< ./base/listener/20130101/3.txt
+< ./base/listener/20130101/2.txt
+< ./base/listener/20130101/1.txt
+< ./base/listener/20121201
+< ./base/listener/20121201/1.txt
+< ./base/listener/20121201/3.txt
+< ./base/listener/20121201/2.txt
+279,282d186
+< ./base/listener/20121205
+< ./base/listener/20121205/1.txt
+< ./base/listener/20121205/2.txt
+< ./base/listener/20121205/3.txt
+295,298d198
+< ./base/listener/20121224
+< ./base/listener/20121224/3.txt
+< ./base/listener/20121224/2.txt
+< ./base/listener/20121224/1.txt
+303,306d202
+< ./base/listener/20121216
+< ./base/listener/20121216/1.txt
+< ./base/listener/20121216/3.txt
+< ./base/listener/20121216/2.txt
+311,314d206
+< ./base/listener/20121211
+< ./base/listener/20121211/1.txt
+< ./base/listener/20121211/2.txt
+< ./base/listener/20121211/3.txt
+331,334d222
+< ./base/listener/20121229
+< ./base/listener/20121229/2.txt
+< ./base/listener/20121229/3.txt
+< ./base/listener/20121229/1.txt
+339,342d226
+< ./base/listener/20121223
+< ./base/listener/20121223/1.txt
+< ./base/listener/20121223/2.txt
+< ./base/listener/20121223/3.txt
+347,358d230
+< ./base/listener/20121202
+< ./base/listener/20121202/2.txt
+< ./base/listener/20121202/3.txt
+< ./base/listener/20121202/1.txt
+< ./base/listener/20130102
+< ./base/listener/20130102/3.txt
+< ./base/listener/20130102/2.txt
+< ./base/listener/20130102/1.txt
+< ./base/listener/20121208
+< ./base/listener/20121208/2.txt
+< ./base/listener/20121208/3.txt
+< ./base/listener/20121208/1.txt
+371,374d242
+< ./base/listener/20121230
+< ./base/listener/20121230/3.txt
+< ./base/listener/20121230/2.txt
+< ./base/listener/20121230/1.txt
+384,387d251
+< ./base/DB/20121228
+< ./base/DB/20121228/1.txt
+< ./base/DB/20121228/3.txt
+< ./base/DB/20121228/2.txt
+392,395d255
+< ./base/DB/20121222
+< ./base/DB/20121222/2.txt
+< ./base/DB/20121222/3.txt
+< ./base/DB/20121222/1.txt
+404,407d263
+< ./base/DB/20121210
+< ./base/DB/20121210/3.txt
+< ./base/DB/20121210/2.txt
+< ./base/DB/20121210/1.txt
+416,423d271
+< ./base/DB/20121231
+< ./base/DB/20121231/3.txt
+< ./base/DB/20121231/2.txt
+< ./base/DB/20121231/1.txt
 < ./base/DB/20121203
-< ./base/DB/20121203/1.txt
 < ./base/DB/20121203/2.txt
 < ./base/DB/20121203/3.txt
-< ./base/DB/20121203/4.txt
-< ./base/DB/20121203/5.txt
-< ./base/DB/20121204
-< ./base/DB/20121204/1.txt
-< ./base/DB/20121204/2.txt
-< ./base/DB/20121204/3.txt
-< ./base/DB/20121204/4.txt
-< ./base/DB/20121204/5.txt
-< ./base/DB/20121205
-< ./base/DB/20121205/1.txt
-< ./base/DB/20121205/2.txt
-< ./base/DB/20121205/3.txt
-< ./base/DB/20121205/4.txt
-< ./base/DB/20121205/5.txt
-< ./base/DB/20121206
-< ./base/DB/20121206/1.txt
-< ./base/DB/20121206/2.txt
-< ./base/DB/20121206/3.txt
-< ./base/DB/20121206/4.txt
-< ./base/DB/20121206/5.txt
-< ./base/DB/20121207
-< ./base/DB/20121207/1.txt
-< ./base/DB/20121207/2.txt
-< ./base/DB/20121207/3.txt
-< ./base/DB/20121207/4.txt
-< ./base/DB/20121207/5.txt
-< ./base/DB/20121208
-< ./base/DB/20121208/1.txt
-< ./base/DB/20121208/2.txt
-< ./base/DB/20121208/3.txt
-< ./base/DB/20121208/4.txt
-< ./base/DB/20121208/5.txt
+< ./base/DB/20121203/1.txt
+428,431d275
 < ./base/DB/20121209
 < ./base/DB/20121209/1.txt
 < ./base/DB/20121209/2.txt
 < ./base/DB/20121209/3.txt
-< ./base/DB/20121209/4.txt
-< ./base/DB/20121209/5.txt
-< ./base/DB/20121210
-< ./base/DB/20121210/1.txt
-< ./base/DB/20121210/2.txt
-< ./base/DB/20121210/3.txt
-< ./base/DB/20121210/4.txt
-< ./base/DB/20121210/5.txt
-< ./base/DB/20121211
-< ./base/DB/20121211/1.txt
-< ./base/DB/20121211/2.txt
-< ./base/DB/20121211/3.txt
-< ./base/DB/20121211/4.txt
-< ./base/DB/20121211/5.txt
-< ./base/DB/20121212
-< ./base/DB/20121212/1.txt
-< ./base/DB/20121212/2.txt
-< ./base/DB/20121212/3.txt
-< ./base/DB/20121212/4.txt
-< ./base/DB/20121212/5.txt
-< ./base/DB/20121213
-< ./base/DB/20121213/1.txt
-< ./base/DB/20121213/2.txt
-< ./base/DB/20121213/3.txt
-< ./base/DB/20121213/4.txt
-< ./base/DB/20121213/5.txt
-< ./base/DB/20121214
-< ./base/DB/20121214/1.txt
-< ./base/DB/20121214/2.txt
-< ./base/DB/20121214/3.txt
-< ./base/DB/20121214/4.txt
-< ./base/DB/20121214/5.txt
-< ./base/DB/20121215
-< ./base/DB/20121215/1.txt
-< ./base/DB/20121215/2.txt
-< ./base/DB/20121215/3.txt
-< ./base/DB/20121215/4.txt
-< ./base/DB/20121215/5.txt
-< ./base/DB/20121216
-< ./base/DB/20121216/1.txt
-< ./base/DB/20121216/2.txt
-< ./base/DB/20121216/3.txt
-< ./base/DB/20121216/4.txt
-< ./base/DB/20121216/5.txt
+436,439d279
+< ./base/DB/20121204
+< ./base/DB/20121204/3.txt
+< ./base/DB/20121204/2.txt
+< ./base/DB/20121204/1.txt
+448,451d287
 < ./base/DB/20121217
 < ./base/DB/20121217/1.txt
-< ./base/DB/20121217/2.txt
 < ./base/DB/20121217/3.txt
-< ./base/DB/20121217/4.txt
-< ./base/DB/20121217/5.txt
-< ./base/DB/20121218
-< ./base/DB/20121218/1.txt
-< ./base/DB/20121218/2.txt
-< ./base/DB/20121218/3.txt
-< ./base/DB/20121218/4.txt
-< ./base/DB/20121218/5.txt
-< ./base/DB/20121219
-< ./base/DB/20121219/1.txt
-< ./base/DB/20121219/2.txt
-< ./base/DB/20121219/3.txt
-< ./base/DB/20121219/4.txt
-< ./base/DB/20121219/5.txt
-< ./base/DB/20121220
-< ./base/DB/20121220/1.txt
-< ./base/DB/20121220/2.txt
-< ./base/DB/20121220/3.txt
-< ./base/DB/20121220/4.txt
-< ./base/DB/20121220/5.txt
-< ./base/DB/20121221
-< ./base/DB/20121221/1.txt
-< ./base/DB/20121221/2.txt
-< ./base/DB/20121221/3.txt
-< ./base/DB/20121221/4.txt
-< ./base/DB/20121221/5.txt
-< ./base/DB/20121222
-< ./base/DB/20121222/1.txt
-< ./base/DB/20121222/2.txt
-< ./base/DB/20121222/3.txt
-< ./base/DB/20121222/4.txt
-< ./base/DB/20121222/5.txt
-< ./base/DB/20121223
-< ./base/DB/20121223/1.txt
-< ./base/DB/20121223/2.txt
-< ./base/DB/20121223/3.txt
-< ./base/DB/20121223/4.txt
-< ./base/DB/20121223/5.txt
-< ./base/DB/20121224
-< ./base/DB/20121224/1.txt
-< ./base/DB/20121224/2.txt
-< ./base/DB/20121224/3.txt
-< ./base/DB/20121224/4.txt
-< ./base/DB/20121224/5.txt
+< ./base/DB/20121217/2.txt
+464,467d299
 < ./base/DB/20121225
 < ./base/DB/20121225/1.txt
 < ./base/DB/20121225/2.txt
 < ./base/DB/20121225/3.txt
-< ./base/DB/20121225/4.txt
-< ./base/DB/20121225/5.txt
+472,475d303
+< ./base/DB/20121221
+< ./base/DB/20121221/3.txt
+< ./base/DB/20121221/2.txt
+< ./base/DB/20121221/1.txt
+492,495d319
+< ./base/DB/20121213
+< ./base/DB/20121213/3.txt
+< ./base/DB/20121213/2.txt
+< ./base/DB/20121213/1.txt
+500,503d323
+< ./base/DB/20121219
+< ./base/DB/20121219/1.txt
+< ./base/DB/20121219/3.txt
+< ./base/DB/20121219/2.txt
+528,531d347
+< ./base/DB/20121207
+< ./base/DB/20121207/2.txt
+< ./base/DB/20121207/3.txt
+< ./base/DB/20121207/1.txt
+540,543d355
+< ./base/DB/20121214
+< ./base/DB/20121214/2.txt
+< ./base/DB/20121214/3.txt
+< ./base/DB/20121214/1.txt
+548,551d359
 < ./base/DB/20121226
-< ./base/DB/20121226/1.txt
-< ./base/DB/20121226/2.txt
 < ./base/DB/20121226/3.txt
-< ./base/DB/20121226/4.txt
-< ./base/DB/20121226/5.txt
-< ./base/DB/20121227
-< ./base/DB/20121227/1.txt
-< ./base/DB/20121227/2.txt
-< ./base/DB/20121227/3.txt
-< ./base/DB/20121227/4.txt
-< ./base/DB/20121227/5.txt
-< ./base/DB/20121228
-< ./base/DB/20121228/1.txt
-< ./base/DB/20121228/2.txt
-< ./base/DB/20121228/3.txt
-< ./base/DB/20121228/4.txt
-< ./base/DB/20121228/5.txt
-< ./base/DB/20121229
-< ./base/DB/20121229/1.txt
-< ./base/DB/20121229/2.txt
-< ./base/DB/20121229/3.txt
-< ./base/DB/20121229/4.txt
-< ./base/DB/20121229/5.txt
+< ./base/DB/20121226/2.txt
+< ./base/DB/20121226/1.txt
+556,559d363
+< ./base/DB/20121216
+< ./base/DB/20121216/1.txt
+< ./base/DB/20121216/3.txt
+< ./base/DB/20121216/2.txt
+572,575d375
+< ./base/DB/20121224
+< ./base/DB/20121224/1.txt
+< ./base/DB/20121224/3.txt
+< ./base/DB/20121224/2.txt
+580,583d379
+< ./base/DB/20121205
+< ./base/DB/20121205/3.txt
+< ./base/DB/20121205/2.txt
+< ./base/DB/20121205/1.txt
+596,599d391
 < ./base/DB/20121230
-< ./base/DB/20121230/1.txt
-< ./base/DB/20121230/2.txt
 < ./base/DB/20121230/3.txt
-< ./base/DB/20121230/4.txt
-< ./base/DB/20121230/5.txt
-< ./base/DB/20121231
-< ./base/DB/20121231/1.txt
-< ./base/DB/20121231/2.txt
-< ./base/DB/20121231/3.txt
-< ./base/DB/20121231/4.txt
-< ./base/DB/20121231/5.txt
-< ./base/DB/20130101
-< ./base/DB/20130101/1.txt
-< ./base/DB/20130101/2.txt
-< ./base/DB/20130101/3.txt
-< ./base/DB/20130101/4.txt
-< ./base/DB/20130101/5.txt
+< ./base/DB/20121230/2.txt
+< ./base/DB/20121230/1.txt
+604,607d395
+< ./base/DB/20121208
+< ./base/DB/20121208/1.txt
+< ./base/DB/20121208/2.txt
+< ./base/DB/20121208/3.txt
+612,619d399
+< ./base/DB/20121202
+< ./base/DB/20121202/3.txt
+< ./base/DB/20121202/2.txt
+< ./base/DB/20121202/1.txt
 < ./base/DB/20130102
 < ./base/DB/20130102/1.txt
 < ./base/DB/20130102/2.txt
 < ./base/DB/20130102/3.txt
-< ./base/DB/20130102/4.txt
-< ./base/DB/20130102/5.txt
-549,614d284
-< ./base/listener/20121201
-< ./base/listener/20121201/1.txt
-< ./base/listener/20121202
-< ./base/listener/20121202/1.txt
-< ./base/listener/20121203
-< ./base/listener/20121203/1.txt
-< ./base/listener/20121204
-< ./base/listener/20121204/1.txt
-< ./base/listener/20121205
-< ./base/listener/20121205/1.txt
-< ./base/listener/20121206
-< ./base/listener/20121206/1.txt
-< ./base/listener/20121207
-< ./base/listener/20121207/1.txt
-< ./base/listener/20121208
-< ./base/listener/20121208/1.txt
-< ./base/listener/20121209
-< ./base/listener/20121209/1.txt
-< ./base/listener/20121210
-< ./base/listener/20121210/1.txt
-< ./base/listener/20121211
-< ./base/listener/20121211/1.txt
-< ./base/listener/20121212
-< ./base/listener/20121212/1.txt
-< ./base/listener/20121213
-< ./base/listener/20121213/1.txt
-< ./base/listener/20121214
-< ./base/listener/20121214/1.txt
-< ./base/listener/20121215
-< ./base/listener/20121215/1.txt
-< ./base/listener/20121216
-< ./base/listener/20121216/1.txt
-< ./base/listener/20121217
-< ./base/listener/20121217/1.txt
-< ./base/listener/20121218
-< ./base/listener/20121218/1.txt
-< ./base/listener/20121219
-< ./base/listener/20121219/1.txt
-< ./base/listener/20121220
-< ./base/listener/20121220/1.txt
-< ./base/listener/20121221
-< ./base/listener/20121221/1.txt
-< ./base/listener/20121222
-< ./base/listener/20121222/1.txt
-< ./base/listener/20121223
-< ./base/listener/20121223/1.txt
-< ./base/listener/20121224
-< ./base/listener/20121224/1.txt
-< ./base/listener/20121225
-< ./base/listener/20121225/1.txt
-< ./base/listener/20121226
-< ./base/listener/20121226/1.txt
-< ./base/listener/20121227
-< ./base/listener/20121227/1.txt
-< ./base/listener/20121228
-< ./base/listener/20121228/1.txt
-< ./base/listener/20121229
-< ./base/listener/20121229/1.txt
-< ./base/listener/20121230
-< ./base/listener/20121230/1.txt
-< ./base/listener/20121231
-< ./base/listener/20121231/1.txt
-< ./base/listener/20130101
-< ./base/listener/20130101/1.txt
-< ./base/listener/20130102
-< ./base/listener/20130102/1.txt
+628,631d407
+< ./base/DB/20121223
+< ./base/DB/20121223/1.txt
+< ./base/DB/20121223/2.txt
+< ./base/DB/20121223/3.txt
+636,639d411
+< ./base/DB/20121229
+< ./base/DB/20121229/1.txt
+< ./base/DB/20121229/3.txt
+< ./base/DB/20121229/2.txt
+648,651d419
+< ./base/DB/20121211
+< ./base/DB/20121211/1.txt
+< ./base/DB/20121211/2.txt
+< ./base/DB/20121211/3.txt
+664,667d431
+< ./base/DB/20121215
+< ./base/DB/20121215/2.txt
+< ./base/DB/20121215/3.txt
+< ./base/DB/20121215/1.txt
+672,675d435
+< ./base/DB/20121227
+< ./base/DB/20121227/2.txt
+< ./base/DB/20121227/3.txt
+< ./base/DB/20121227/1.txt
+688,691d447
+< ./base/DB/20121206
+< ./base/DB/20121206/2.txt
+< ./base/DB/20121206/3.txt
+< ./base/DB/20121206/1.txt
+696,703d451
+< ./base/DB/20130101
+< ./base/DB/20130101/3.txt
+< ./base/DB/20130101/2.txt
+< ./base/DB/20130101/1.txt
+< ./base/DB/20121201
+< ./base/DB/20121201/1.txt
+< ./base/DB/20121201/3.txt
+< ./base/DB/20121201/2.txt
+712,715d459
+< ./base/DB/20121220
+< ./base/DB/20121220/1.txt
+< ./base/DB/20121220/2.txt
+< ./base/DB/20121220/3.txt
+732,735d475
+< ./base/DB/20121218
+< ./base/DB/20121218/3.txt
+< ./base/DB/20121218/2.txt
+< ./base/DB/20121218/1.txt
+740,743d479
+< ./base/DB/20121212
+< ./base/DB/20121212/2.txt
+< ./base/DB/20121212/3.txt
+< ./base/DB/20121212/1.txt
+753,756d488
+< ./base/AP/20121207
+< ./base/AP/20121207/2.txt
+< ./base/AP/20121207/3.txt
+< ./base/AP/20121207/1.txt
+769,772d500
+< ./base/AP/20121226
+< ./base/AP/20121226/1.txt
+< ./base/AP/20121226/3.txt
+< ./base/AP/20121226/2.txt
+777,780d504
+< ./base/AP/20121214
+< ./base/AP/20121214/3.txt
+< ./base/AP/20121214/2.txt
+< ./base/AP/20121214/1.txt
+785,788d508
+< ./base/AP/20121213
+< ./base/AP/20121213/2.txt
+< ./base/AP/20121213/3.txt
+< ./base/AP/20121213/1.txt
+793,796d512
+< ./base/AP/20121219
+< ./base/AP/20121219/1.txt
+< ./base/AP/20121219/3.txt
+< ./base/AP/20121219/2.txt
+809,812d524
+< ./base/AP/20121221
+< ./base/AP/20121221/1.txt
+< ./base/AP/20121221/3.txt
+< ./base/AP/20121221/2.txt
+837,840d548
+< ./base/AP/20121204
+< ./base/AP/20121204/1.txt
+< ./base/AP/20121204/3.txt
+< ./base/AP/20121204/2.txt
+845,848d552
+< ./base/AP/20121225
+< ./base/AP/20121225/1.txt
+< ./base/AP/20121225/2.txt
+< ./base/AP/20121225/3.txt
+861,864d564
+< ./base/AP/20121217
+< ./base/AP/20121217/3.txt
+< ./base/AP/20121217/2.txt
+< ./base/AP/20121217/1.txt
+881,884d580
+< ./base/AP/20121210
+< ./base/AP/20121210/1.txt
+< ./base/AP/20121210/2.txt
+< ./base/AP/20121210/3.txt
+889,892d584
+< ./base/AP/20121228
+< ./base/AP/20121228/1.txt
+< ./base/AP/20121228/2.txt
+< ./base/AP/20121228/3.txt
+897,900d588
+< ./base/AP/20121222
+< ./base/AP/20121222/1.txt
+< ./base/AP/20121222/2.txt
+< ./base/AP/20121222/3.txt
+909,912d596
+< ./base/AP/20121203
+< ./base/AP/20121203/3.txt
+< ./base/AP/20121203/2.txt
+< ./base/AP/20121203/1.txt
+917,924d600
+< ./base/AP/20121209
+< ./base/AP/20121209/1.txt
+< ./base/AP/20121209/2.txt
+< ./base/AP/20121209/3.txt
+< ./base/AP/20121231
+< ./base/AP/20121231/1.txt
+< ./base/AP/20121231/2.txt
+< ./base/AP/20121231/3.txt
+929,936d604
+< ./base/AP/20121201
+< ./base/AP/20121201/3.txt
+< ./base/AP/20121201/2.txt
+< ./base/AP/20121201/1.txt
+< ./base/AP/20130101
+< ./base/AP/20130101/1.txt
+< ./base/AP/20130101/3.txt
+< ./base/AP/20130101/2.txt
+949,952d616
+< ./base/AP/20121218
+< ./base/AP/20121218/3.txt
+< ./base/AP/20121218/2.txt
+< ./base/AP/20121218/1.txt
+957,960d620
+< ./base/AP/20121212
+< ./base/AP/20121212/1.txt
+< ./base/AP/20121212/3.txt
+< ./base/AP/20121212/2.txt
+973,976d632
+< ./base/AP/20121220
+< ./base/AP/20121220/1.txt
+< ./base/AP/20121220/2.txt
+< ./base/AP/20121220/3.txt
+993,996d648
+< ./base/AP/20121227
+< ./base/AP/20121227/1.txt
+< ./base/AP/20121227/3.txt
+< ./base/AP/20121227/2.txt
+1001,1004d652
+< ./base/AP/20121215
+< ./base/AP/20121215/1.txt
+< ./base/AP/20121215/3.txt
+< ./base/AP/20121215/2.txt
+1013,1016d660
+< ./base/AP/20121206
+< ./base/AP/20121206/3.txt
+< ./base/AP/20121206/2.txt
+< ./base/AP/20121206/1.txt
+1029,1044d672
+< ./base/AP/20121208
+< ./base/AP/20121208/1.txt
+< ./base/AP/20121208/3.txt
+< ./base/AP/20121208/2.txt
+< ./base/AP/20130102
+< ./base/AP/20130102/3.txt
+< ./base/AP/20130102/2.txt
+< ./base/AP/20130102/1.txt
+< ./base/AP/20121202
+< ./base/AP/20121202/2.txt
+< ./base/AP/20121202/3.txt
+< ./base/AP/20121202/1.txt
+< ./base/AP/20121230
+< ./base/AP/20121230/1.txt
+< ./base/AP/20121230/2.txt
+< ./base/AP/20121230/3.txt
+1061,1064d688
+< ./base/AP/20121211
+< ./base/AP/20121211/2.txt
+< ./base/AP/20121211/3.txt
+< ./base/AP/20121211/1.txt
+1069,1072d692
+< ./base/AP/20121223
+< ./base/AP/20121223/3.txt
+< ./base/AP/20121223/2.txt
+< ./base/AP/20121223/1.txt
+1077,1080d696
+< ./base/AP/20121229
+< ./base/AP/20121229/3.txt
+< ./base/AP/20121229/2.txt
+< ./base/AP/20121229/1.txt
+1085,1088d700
+< ./base/AP/20121224
+< ./base/AP/20121224/1.txt
+< ./base/AP/20121224/2.txt
+< ./base/AP/20121224/3.txt
+1101,1104d712
+< ./base/AP/20121216
+< ./base/AP/20121216/2.txt
+< ./base/AP/20121216/3.txt
+< ./base/AP/20121216/1.txt
+1113,1116d720
+< ./base/AP/20121205
+< ./base/AP/20121205/1.txt
+< ./base/AP/20121205/3.txt
+< ./base/AP/20121205/2.txt
